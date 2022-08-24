@@ -1,0 +1,93 @@
+/* Normalize */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+
+body {
+    background-image: url(../wallpaper2.jpg);
+    background-color: #004643;
+
+    #title {
+        color: #fffffe;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #description {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    p,
+    label {
+        color: #abd1c6;
+    }
+}
+
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: rgba(2, 2, 2, 0.5);
+    width: 75%;
+    margin-bottom: 20%;
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 100%;
+        }
+
+        label {
+            font-size: 20px;
+            margin: 1%;
+            text-align: center;
+
+            p {
+                color: rgba(200, 200, 200, 0.5);
+                font-size: 15px;
+            }
+        }
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        p {
+            font-size: 20px;
+            margin: 2%;
+            text-align: center;
+        }
+        input {
+            margin: 0.5%;
+        }
+
+        .submit-button{
+            margin: 2%;
+            background-color: #f9bc60;
+            color: #001e1d;
+            padding: 1%;
+            border-radius: 20px;
+            box-shadow: 0 0 1em #f9bc60;
+            border: transparent;
+        }
+
+    }
+
+
+}
