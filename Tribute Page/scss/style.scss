@@ -1,0 +1,38 @@
+/* Normalize */
+* {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0e17;
+}
+
+main {
+    h1 {
+        text-align: center;
+        color: #fffffe;
+    }
+
+    p {
+        font-size: 20px;
+        color: #a7a9be;
+        margin-bottom: 2%;
+    }
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+p {
+    color: #fffffe;
+    font-size: 20px;
+}
